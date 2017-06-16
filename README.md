@@ -1,4 +1,4 @@
-# Seeker Resume Builder
+# Seekers Resume Builder
 
 # Overview
 
