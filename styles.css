@@ -16,11 +16,11 @@ a img{
   color: #fff;
 }
 
-.seekhunt-search-box .mdl-textfield__input {
+.seekers-search-box .mdl-textfield__input {
   color: rgba(0, 0, 0, 0.87);
 }
 
-.seekhunt-header .mdl-menu__container {
+.seekers-header .mdl-menu__container {
   z-index: 50;
   margin: 0 !important;
 }
@@ -30,7 +30,7 @@ a img{
   width: auto;
 }
 
-.seekhunt-fab {
+.seekers-fab {
   position: absolute;
   right: 20%;
   bottom: -26px;
@@ -39,37 +39,37 @@ a img{
   color: black !important;
 }
 
-.seekhunt-mobile-title {
+.seekers-mobile-title {
   display: none !important;
 }
 
 
-.seekhunt-logo-image {
+.seekers-logo-image {
   width: 175px;
 }
 
 
-.seekhunt-header {
+.seekers-header {
   overflow: visible;
   background-color: white;
 }
 
-  .seekhunt-header .material-icons {
+  .seekers-header .material-icons {
     color: #767777 !important;
   }
 
-  .seekhunt-header .mdl-layout__drawer-button {
+  .seekers-header .mdl-layout__drawer-button {
     background: transparent;
     color: #767777;
   }
 
-  .seekhunt-header .mdl-navigation__link {
+  .seekers-header .mdl-navigation__link {
     color: #757575;
     font-weight: 700;
     font-size: 14px;
   }
 
-  .seekhunt-navigation-container {
+  .seekers-navigation-container {
     /* Simple hack to make the overflow happen to the left instead... */
     direction: rtl;
     -webkit-order: 1;
@@ -80,7 +80,7 @@ a img{
         width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .seekhunt-navigation {
+  .seekers-navigation {
     /* ... and now make sure the content is actually LTR */
     direction: ltr;
     -webkit-justify-content: flex-end;
@@ -89,13 +89,13 @@ a img{
     width: 800px;
   }
 
-  .seekhunt-search-box.is-focused + .seekhunt-navigation-container {
+  .seekers-search-box.is-focused + .seekers-navigation-container {
     opacity: 0;
     width: 100px;
   }
 
 
-  .seekhunt-navigation .mdl-navigation__link {
+  .seekers-navigation .mdl-navigation__link {
     display: inline-block;
     height: 60px;
     line-height: 68px;
@@ -103,11 +103,11 @@ a img{
     border-bottom: 4px solid transparent;
   }
 
-    .seekhunt-navigation .mdl-navigation__link:hover {
+    .seekers-navigation .mdl-navigation__link:hover {
       border-bottom: 4px solid #2196f3;
     }
 
-  .seekhunt-search-box {
+  .seekers-search-box {
     -webkit-order: 2;
         -ms-flex-order: 2;
             order: 2;
@@ -115,44 +115,44 @@ a img{
     margin-right: 16px;
   }
 
-  .seekhunt-more-button {
+  .seekers-more-button {
     -webkit-order: 3;
         -ms-flex-order: 3;
             order: 3;
   }
 
 
-.seekhunt-drawer {
+.seekers-drawer {
   border-right: none;
 }
 
-  .seekhunt-drawer-separator {
+  .seekers-drawer-separator {
     height: 1px;
     background-color: #dcdcdc;
     margin: 8px 0;
   }
 
-  .seekhunt-drawer .mdl-navigation__link.mdl-navigation__link {
+  .seekers-drawer .mdl-navigation__link.mdl-navigation__link {
     font-size: 14px;
     color: #757575;
   }
 
-  .seekhunt-drawer span.mdl-navigation__link.mdl-navigation__link {
+  .seekers-drawer span.mdl-navigation__link.mdl-navigation__link {
     color: #2196f3;
   }
 
-  .seekhunt-drawer .mdl-layout-title {
+  .seekers-drawer .mdl-layout-title {
     position: relative;
     background: #2196f3;
     height: 160px;
   }
 
-    .seekhunt-drawer .seekhunt-logo-image {
+    .seekers-drawer .seekers-logo-image {
       position: absolute;
       bottom: 16px;
     }
 
-.seekhunt-welcome-section {
+.seekers-welcome-section {
   position: relative;
   height: 800px;
   width: auto;
@@ -167,131 +167,131 @@ a img{
   font-weight: 500;
 }
 
-.seekhunt-slogan {
+.seekers-slogan {
   font-size: 60px;
   padding-top: 120px;
 }
 
-.seekhunt-sub-slogan {
+.seekers-sub-slogan {
   font-size: 21px;
   padding-top: 24px;
 }
 
-.seekhunt-link {
+.seekers-link {
   text-decoration: none;
   color: #2196f3 !important;
 }
 
-  .seekhunt-link:hover {
+  .seekers-link:hover {
     color: #2196f3 !important;
   }
 
-  .seekhunt-link .material-icons {
+  .seekers-link .material-icons {
     position: relative;
     top: -1px;
     vertical-align: middle;
   }
 
-.seekhunt-alt-link {
+.seekers-alt-link {
   text-decoration: none;
   color: #64ffda !important;
   font-size: 16px;
 }
 
-  .seekhunt-alt-link:hover {
+  .seekers-alt-link:hover {
     color: #00bfa5 !important;
   }
 
-  .seekhunt-alt-link .material-icons {
+  .seekers-alt-link .material-icons {
     position: relative;
     top: 6px;
   }
 
-.seekhunt-card-container {
+.seekers-card-container {
 }
 
-  .seekhunt-card-container .mdl-card__media {
+  .seekers-card-container .mdl-card__media {
     overflow: hidden;
     background: transparent;
   }
 
-    .seekhunt-card-container .mdl-card__media img {
+    .seekers-card-container .mdl-card__media img {
       width: 100%;
     }
 
-  .seekhunt-card-container .mdl-card__title {
+  .seekers-card-container .mdl-card__title {
     background: transparent;
     height: auto;
   }
 
-  .seekhunt-card-container .mdl-card__title-text {
+  .seekers-card-container .mdl-card__title-text {
     color: black;
     height: auto;
   }
 
-  .seekhunt-card-container .mdl-card__supporting-text {
+  .seekers-card-container .mdl-card__supporting-text {
     height: auto;
     color: black;
     padding-bottom: 56px;
   }
 
-  .seekhunt-card-container .mdl-card__actions {
+  .seekers-card-container .mdl-card__actions {
     position: absolute;
     bottom: 0;
   }
 
-  .seekhunt-card-container .mdl-card__actions a {
+  .seekers-card-container .mdl-card__actions a {
     border-top: none;
     font-size: 16px;
   }
 
-.seekhunt-footer {
+.seekers-footer {
   background-color: #fafafa;
   position: relative;
 }
 
-  .seekhunt-footer a:hover {
+  .seekers-footer a:hover {
     color: #2196f3;
   }
 
-  .seekhunt-footer .mdl-mega-footer--top-section::after {
+  .seekers-footer .mdl-mega-footer--top-section::after {
     border-bottom: none;
   }
 
-  .seekhunt-footer .mdl-mega-footer--middle-section::after {
+  .seekers-footer .mdl-mega-footer--middle-section::after {
     border-bottom: none;
   }
 
-  .seekhunt-footer .mdl-mega-footer--bottom-section {
+  .seekers-footer .mdl-mega-footer--bottom-section {
     position: relative;
   }
 
-  .seekhunt-footer .mdl-mega-footer--bottom-section a {
+  .seekers-footer .mdl-mega-footer--bottom-section a {
     margin-right: 2em;
   }
 
-  .seekhunt-footer .mdl-mega-footer--right-section a .material-icons {
+  .seekers-footer .mdl-mega-footer--right-section a .material-icons {
     position: relative;
     top: 6px;
   }
 
 
-.seekhunt-link-menu:hover {
+.seekers-link-menu:hover {
   cursor: pointer;
 }
 
 
 /**** Mobile layout ****/
 @media (max-width: 900px) {
-  .seekhunt-navigation-container {
+  .seekers-navigation-container {
     display: none;
   }
 
-  .seekhunt-title {
+  .seekers-title {
     display: none !important;
   }
 
-  .seekhunt-mobile-title {
+  .seekers-mobile-title {
     display: block !important;
     position: absolute;
     left: calc(50% - 70px);
@@ -302,40 +302,40 @@ a img{
   /* WebViews in iOS 9 break the "~" operator, and WebViews in OS X 10.10 break
      consecutive "+" operators in some cases. Therefore, we need to use both
      here to cover all the bases. */
-  .seekhunt.seekhunt-search-box.is-focused ~ .seekhunt-mobile-title,
-  .seekhunt-search-box.is-focused + .seekhunt-navigation-container + .seekhunt-mobile-title {
+  .seekers.seekers-search-box.is-focused ~ .seekers-mobile-title,
+  .seekers-search-box.is-focused + .seekers-navigation-container + .seekers-mobile-title {
     opacity: 0;
   }
 
-  .seekhunt-more-button {
+  .seekers-more-button {
     display: none;
   }
 
-  .seekhunt-search-box.is-focused {
+  .seekers-search-box.is-focused {
     width: calc(100% - 48px);
   }
 
-  .seekhunt-search-box .mdl-textfield__expandable-holder {
+  .seekers-search-box .mdl-textfield__expandable-holder {
     width: 100%;
   }
 
-  .seekhunt-welcome-section {
+  .seekers-welcome-section {
     height: 350px;
   }
 
-  .seekhunt-slogan {
+  .seekers-slogan {
     font-size: 26px;
     margin: 0 16px;
     padding-top: 24px;
   }
 
-  .seekhunt-sub-slogan {
+  .seekers-sub-slogan {
     font-size: 16px;
     margin: 0 16px;
     padding-top: 8px;
   }
 
-  .seekhunt-footer .mdl-mega-footer--bottom-section {
+  .seekers-footer .mdl-mega-footer--bottom-section {
     display: none;
   }
 }
