@@ -23,7 +23,7 @@ class ResumeForm extends Component {
   }
 
   render() {
-    const toListItem = (item) => <li key={item}>{item}</li>;
+    const toListItem = (item) => item && <li key={item}>{item}</li>;
 
     // get only portfolio urls for now
     const portfolio = this.resume.portfolio.map(proj => proj.url).map(toListItem);
