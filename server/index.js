@@ -9,7 +9,6 @@ const authController = require('./auth/user/authController');
 const cookieController = require('./auth/util/cookieController');
 const sessionController = require('./auth/session/sessionController');
 const userController = require('./user/UserController');
-const screenshotController = require('./screenshot/screenshotController');
 
 const MONGO_URI = require('../shared/config').MONGO_URI;
 const PORT = 3000;
@@ -75,12 +74,10 @@ app.get('/resume', sessionController.isLoggedIn, (req, res) => {
 app.get('/:type/:username', userController.getUser);
 
 // Create user
-app.post('/:type', screenshotController.createScreenshots);
 app.post('/:type', userController.createResume);
 
 // Change a user's name
 // localhost://3000/"type"/"username"
-app.patch('/:type/:username', screenshotController.createScreenshots);
 app.patch('/:type/:username', userController.updateUser);
 
 // Delete a user from the database
