@@ -21,8 +21,8 @@ if (window.location.pathname.substring(0,8) === '/newuser') {
     user = window.location.pathname.slice(6);
 }
 
-const getResumeUrl = 'http://localhost:3000/seek/' + user;
-const patchResumeUrl = 'http://localhost:3000/seek/' + user;
+const getResumeUrl = '/seek/' + user;
+const patchResumeUrl = '/seek/' + user;
 
 class ResumeContainer extends Component {
   constructor() {
