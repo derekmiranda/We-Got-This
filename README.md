@@ -9,6 +9,8 @@ An online resume building tool for software developers. Think of it as a combina
 
 - To Start initial build with Webpack do: `npm run webpack`
 
+- Provide the URI of the MongoDB server you plan to use with the application in *shared/config.js*
+
 - Next do `npm start` and navigate in your browser to [localhost:3000](http://localhost:3000/) to see your built application.
 
 ## Core Features: Front-End
@@ -69,4 +71,4 @@ https://en.wikipedia.org/wiki/Stable_marriage_problem
 https://gist.github.com/joyrexus/9967709
 
 ### Contact
-If you have any questions, slack michaelkhouv, derekmiranda or eveafeline(naomi).
+If you have any questions, contact [mkhouv](https://github.com/mkhouv), [derekmiranda](https://github.com/derekmiranda) or [eveafeline](https://github.com/eveafeline).
