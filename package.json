@@ -1,8 +1,8 @@
 {
-  "name": "We-Got-This",
+  "name": "seekers",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/NMD-Resume/We-Got-This.git",
+  "repository": "https://github.com/NMD-Resume/seekers.git",
   "author": "Derek Miranda <derek.miranda.1992@gmail.com>",
   "license": "MIT",
   "dependencies": {
